@@ -1,0 +1,205 @@
+{
+  "productsCategories": [
+    {
+      "id": "1",
+      "name": "owoce",
+      "engName": "fruits",
+      "image": "/images/owoce.jpg"
+    },
+    {
+      "id": "2",
+      "name": "warzywa",
+      "engName": "vegetables",
+      "image": "/images/warzywa.jpg"
+    },
+    {
+      "id": "3",
+      "name": "bakalie",
+      "engName": "delicacies",
+      "image": "/images/bakalie.jpg"
+    }
+  ],
+
+  "products": [
+    {
+      "id": "fruit_apples",
+      "name": "apples",
+      "price": 2.5,
+      "image": "/images/jablka.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "fruit",
+      "productCategoryId": "1"
+    },
+    {
+      "id": "fruit_pears",
+      "name": "pears",
+      "price": 5.9,
+      "image": "/images/gruszki.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "fruit",
+      "productCategoryId": "1"
+    },
+    {
+      "id": "fruit_peaches",
+      "name": "peaches",
+      "price": 4.8,
+      "image": "/images/brzoskwinie.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "fruit",
+      "productCategoryId": "1"
+    },
+    {
+      "id": "fruit_plums",
+      "name": "plums",
+      "price": 2.7,
+      "image": "/images/sliwki.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "fruit",
+      "productCategoryId": "1"
+    },
+    {
+      "id": "fruit_raspberries",
+      "name": "raspberries",
+      "price": 24.6,
+      "image": "/images/maliny.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "fruit",
+      "productCategoryId": "1"
+    },
+    {
+      "id": "fruit_cherries",
+      "name": "cherries",
+      "price": 4.9,
+      "image": "/images/wisnie.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "fruit",
+      "productCategoryId": "1"
+    },
+    {
+      "id": "vegetable_potatoes",
+      "name": "potatoes",
+      "price": 2.4,
+      "image": "/images/ziemniaki.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "vegetable",
+      "productCategoryId": "2"
+    },
+    {
+      "id": "vegetable_carrots",
+      "name": "carrots",
+      "price": 1.9,
+      "image": "/images/marchewki.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "vegetable",
+      "productCategoryId": "2"
+    },
+    {
+      "id": "vegetable_onions",
+      "name": "onions",
+      "price": 2.5,
+      "image": "/images/cebule.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "vegetable",
+      "productCategoryId": "2"
+    },
+    {
+      "id": "vegetable_cucumbers",
+      "name": "cucumbers",
+      "price": 3.9,
+      "image": "/images/ogorki.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "vegetable",
+      "productCategoryId": "2"
+    },
+    {
+      "id": "vegetable_tomatoes",
+      "name": "tomatoes",
+      "price": 4.9,
+      "image": "/images/pomidory.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "vegetable",
+      "productCategoryId": "2"
+    },
+    {
+      "id": "vegetable_peppers",
+      "name": "peppers",
+      "price": 7.6,
+      "image": "/images/papryki.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "vegetable",
+      "productCategoryId": "2"
+    },
+    {
+      "id": "delicacies_hazelnuts",
+      "name": "hazelnuts",
+      "price": 44.9,
+      "image": "/images/laskowe.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "delicacies",
+      "productCategoryId": "3"
+    },
+    {
+      "id": "delicacies_almonds",
+      "name": "almonds",
+      "price": 49.9,
+      "image": "/images/migdaly.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "delicacies",
+      "productCategoryId": "3"
+    },
+    {
+      "id": "delicacies_raisins",
+      "name": "raisins",
+      "price": 11.9,
+      "image": "/images/rodzynki.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "delicacies",
+      "productCategoryId": "3"
+    },
+    {
+      "id": "delicacies_walnuts",
+      "name": "walnuts",
+      "price": 25.5,
+      "image": "/images/włoskie.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "delicacies",
+      "productCategoryId": "3"
+    },
+    {
+      "id": "delicacies_peanuts",
+      "name": "peanuts",
+      "price": 12.5,
+      "image": "/images/ziemne.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "delicacies",
+      "productCategoryId": "3"
+    },
+    {
+      "id": "delicacies_pistachios",
+      "name": "pistachios",
+      "price": 49.9,
+      "image": "/images/pistacje.jpg",
+      "avaibleProducts": 20,
+      "buyQuantity": 0,
+      "category": "delicacies",
+      "productCategoryId": "3"
+    }
+  ]
+}
