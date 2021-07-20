@@ -14,6 +14,17 @@ export const Banner = styled.div`
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
     font-size: 2rem;
   }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 400px) {
+    height: 15vh;
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
 `;
 export const Menu = styled.div`
   display: flex;
@@ -22,12 +33,9 @@ export const Menu = styled.div`
   align-items: center;
   padding: 0 5% 0 5%;
 
-  @media (orientation: landscape) and (max-width: 700px) {
-    height: 100px;
-  }
-
-  @media (orientation: portrait) and (max-width: 700px) {
-    height: 100px;
+  @media (max-width: 800px) {
+    height: 10vh;
+    padding: 0 2% 0 2%;
   }
 `;
 
@@ -44,15 +52,13 @@ export const Navigation = styled.ul`
       text-decoration: none;
     }
   }
-  @media (orientation: landscape) and (max-width: 700px) {
-    flex-direction: column;
-    align-items: flex-start;
+
+  @media (max-width: 800px) {
     font-size: 1rem;
   }
-  @media (orientation: portrait) and (max-width: 700px) {
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 1rem;
+  @media (max-width: 400px) {
+    font-weight: bold;
+    font-size: 0.75rem;
   }
 `;
 
@@ -63,7 +69,7 @@ flex: 1;
 text-transform: uppercase;
 font-size: 1.3rem;
 width: 55px;
-
+justify-content: center;
 a{
   display: flex;
   color: white;
@@ -82,5 +88,11 @@ span{
   color: orange;
   font-size: 0.8rem;
   font-weight: bold; 
+}
+@media (max-width: 800px) {
+  font-size: 1rem;
+}
+@media (max-width: 400px) {
+  font-size: 0.75rem;
 }
 `;

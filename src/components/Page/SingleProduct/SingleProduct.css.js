@@ -6,6 +6,11 @@ export const Product = styled.div`
   overflow: hidden;
   color: white;
   margin: 2px 2px;
+
+  @media (max-width: 1024px) {
+    height: 225px;
+    width: 250px;
+  }
 `;
 
 export const Image = styled.div`
@@ -22,6 +27,10 @@ export const BuyInfoLabel = styled.div`
   font-size: 1.2rem;
   justify-content: space-around;
   background-color: orange;
+
+  @media (max-width: 1024px) {
+    font-size: 1rem;
+  }
 `;
 
 export const PriceAndQuantity = styled.div`
@@ -62,5 +71,9 @@ export const Button = styled.button`
   margin-left: 5px;
   &:hover {
     cursor: pointer;
+  }
+  @media (max-width: 1024px) {
+    font-size: 0.9rem;
+    margin-left: 2px;
   }
 `;

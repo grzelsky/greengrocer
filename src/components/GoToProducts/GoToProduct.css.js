@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const GoToProductFromMain = styled.div`
   overflow: hidden;
   height: 275px;
-  max-width: 20vw;
+  width: 360px;
   color: black;
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -11,13 +11,17 @@ export const GoToProductFromMain = styled.div`
   &:hover {
     opacity: 0.7;
   }
-  @media (orientation: landscape) and (max-width: 700px) {
-    max-width: 70vw;
-  }
-  @media (orientation: portrait) and (max-width: 600px) {
-    max-width: 70vw;
-  }
 
+  @media (max-width: 1024px) {
+    height: 200px;
+    width: 200px;
+    font-size: 1.2rem;
+  }
+  @media (max-width: 400px) {
+    height: 150px;
+    width: 200px;
+    font-size: 1rem;
+  }
   p {
     position: relative;
     line-height: 40px;

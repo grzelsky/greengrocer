@@ -9,16 +9,15 @@ export const MainPage = styled.ul`
   min-height: 65vh;
   padding: 50px 160px 0 160px;
 
-  @media (orientation: landscape) and (max-width: 700px) {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 0 30px 0;
+  @media (max-width: 800px) {
+    padding: 0px 2% 2% 2%;
+    height: 65vh;
   }
 
-  @media (orientation: portrait) and (max-width: 600px) {
+  @media (max-width: 400px) {
     flex-direction: column;
     align-items: center;
-    padding: 0 0 30px 0;
+    padding: 0;
   }
 
   a {

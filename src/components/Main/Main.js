@@ -18,7 +18,7 @@ const Main = () => {
   }, []);
 
   const closeModal = (e) => {
-    // e.stopPropagation();
+    e.stopPropagation();
     setIsShown(false);
   };
   const showModal = isShown ? <Modal close={closeModal} /> : null;

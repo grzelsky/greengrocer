@@ -37,6 +37,16 @@ p{
   font-size: 20px;
   line-height: 1.6rem
 }
+@media (max-width: 800px) {
+    width: 340px;
+    height: 220px;
+    h1{
+     font-size: 18px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
 `;
 
 export const CloseIcon = styled.div`
