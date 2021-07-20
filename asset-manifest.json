@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33923105.chunk.css",
+    "main.js": "/static/js/main.c05702d6.chunk.js",
+    "main.js.map": "/static/js/main.c05702d6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.003b1470.js",
+    "runtime-main.js.map": "/static/js/runtime-main.003b1470.js.map",
+    "static/css/2.d34346ea.chunk.css": "/static/css/2.d34346ea.chunk.css",
+    "static/js/2.3a6e64c4.chunk.js": "/static/js/2.3a6e64c4.chunk.js",
+    "static/js/2.3a6e64c4.chunk.js.map": "/static/js/2.3a6e64c4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b3fa101aef3b0bd312e55c73a046aea3.js": "/precache-manifest.b3fa101aef3b0bd312e55c73a046aea3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d34346ea.chunk.css.map": "/static/css/2.d34346ea.chunk.css.map",
+    "static/css/main.33923105.chunk.css.map": "/static/css/main.33923105.chunk.css.map",
+    "static/js/2.3a6e64c4.chunk.js.LICENSE.txt": "/static/js/2.3a6e64c4.chunk.js.LICENSE.txt",
+    "static/media/jablka.jpg": "/static/media/jablka.e317fdf4.jpg",
+    "static/media/maliny.jpg": "/static/media/maliny.340e2dd5.jpg",
+    "static/media/truskawki.jpg": "/static/media/truskawki.a5d45a83.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.003b1470.js",
+    "static/css/2.d34346ea.chunk.css",
+    "static/js/2.3a6e64c4.chunk.js",
+    "static/css/main.33923105.chunk.css",
+    "static/js/main.c05702d6.chunk.js"
+  ]
+}

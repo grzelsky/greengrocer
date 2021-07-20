@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css","App.css"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,qBAAsB,CACtB,SACF,CCJA,KACE,iBAAkB,CAClB,gBAAiB,CACjB,iBAAkB,CAClB,cACF","file":"main.33923105.chunk.css","sourcesContent":["* {\n  margin: 0;\n  box-sizing: border-box;\n  padding: 0;\n}",".App {\n  text-align: center;\n  max-height: 100vh;\n  font-family: Arial;\n  font-size: 10px;\n}\n"]}
