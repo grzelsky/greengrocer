@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/greengrocer/static/css/main.33923105.chunk.css",
-    "main.js": "/greengrocer/static/js/main.f6085fba.chunk.js",
-    "main.js.map": "/greengrocer/static/js/main.f6085fba.chunk.js.map",
+    "main.js": "/greengrocer/static/js/main.1dd5b495.chunk.js",
+    "main.js.map": "/greengrocer/static/js/main.1dd5b495.chunk.js.map",
     "runtime-main.js": "/greengrocer/static/js/runtime-main.23ec0652.js",
     "runtime-main.js.map": "/greengrocer/static/js/runtime-main.23ec0652.js.map",
     "static/css/2.d34346ea.chunk.css": "/greengrocer/static/css/2.d34346ea.chunk.css",
     "static/js/2.1c286fb2.chunk.js": "/greengrocer/static/js/2.1c286fb2.chunk.js",
     "static/js/2.1c286fb2.chunk.js.map": "/greengrocer/static/js/2.1c286fb2.chunk.js.map",
     "index.html": "/greengrocer/index.html",
-    "precache-manifest.c8e58a80caa1611de2e3ade5d02b3c9f.js": "/greengrocer/precache-manifest.c8e58a80caa1611de2e3ade5d02b3c9f.js",
+    "precache-manifest.b4989f4e68fe11999f352525a00b8127.js": "/greengrocer/precache-manifest.b4989f4e68fe11999f352525a00b8127.js",
     "service-worker.js": "/greengrocer/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/greengrocer/static/css/2.d34346ea.chunk.css.map",
     "static/css/main.33923105.chunk.css.map": "/greengrocer/static/css/main.33923105.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.d34346ea.chunk.css",
     "static/js/2.1c286fb2.chunk.js",
     "static/css/main.33923105.chunk.css",
-    "static/js/main.f6085fba.chunk.js"
+    "static/js/main.1dd5b495.chunk.js"
   ]
 }

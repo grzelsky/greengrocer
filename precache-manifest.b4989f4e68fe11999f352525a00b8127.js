@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5371412c879f348ecc217a1932617365",
+    "revision": "d34158130cd110089305e3642f3dae13",
     "url": "/greengrocer/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/greengrocer/static/css/2.d34346ea.chunk.css"
   },
   {
-    "revision": "22a0525fadbfa299067e",
+    "revision": "a36fc700ae0bd766efda",
     "url": "/greengrocer/static/css/main.33923105.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/greengrocer/static/js/2.1c286fb2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22a0525fadbfa299067e",
-    "url": "/greengrocer/static/js/main.f6085fba.chunk.js"
+    "revision": "a36fc700ae0bd766efda",
+    "url": "/greengrocer/static/js/main.1dd5b495.chunk.js"
   },
   {
     "revision": "6099782cc9f0c5201ad5",
