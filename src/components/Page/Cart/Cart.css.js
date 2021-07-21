@@ -12,7 +12,7 @@ export const ProductsListInCart = styled.ul`
   display: flex;
   justify-content: center;
   background-color: orange;
-  min-width: 600px;
+  width: 600px;
   li {
     list-style: none;
   }
@@ -29,11 +29,12 @@ export const SinglePosition = styled.p`
   width: 550px;
   text-align: left;
   margin: 5px 0 5px 0;
-  padding: 0 5px 0 5px;
+  padding: 0;
   line-height: 30px;
   font-size: 1rem;
+  text-align: center;
   p {
-    flex-basis: 30%;
+    flex-basis: 33%;
   }
 
   button {
@@ -50,9 +51,9 @@ export const SinglePosition = styled.p`
     height: 20px;
   }
   @media (max-width: 1024px) {
-    width: 95vw;
+    width: 345px;
     p {
-      font-size: 0.65rem;
+      font-size: 0.6rem;
     }
   }
 `;
