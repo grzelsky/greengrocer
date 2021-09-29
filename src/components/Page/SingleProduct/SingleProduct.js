@@ -21,7 +21,7 @@ const SingleProduct = ({ productData }) => {
   return (
     <Product>
       <Image>
-        <img src={image} alt="" />
+        <img src={image} alt="productImage" />
       </Image>
       <BuyInfoLabel>
         <PriceAndQuantity>

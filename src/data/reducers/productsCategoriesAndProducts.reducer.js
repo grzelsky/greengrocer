@@ -27,7 +27,7 @@ const productsCategoriesAndProducts = (state = initialState, action) => {
       return {
         ...state,
         loadingState: {
-          ...state.loadingstate,
+          ...state.loadingState,
           [action.type]: LOADING_STATES.LOADING,
         },
       };
