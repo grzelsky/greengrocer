@@ -21,7 +21,7 @@ export const ProductsListInCart = styled.ul`
   }
 `;
 
-export const SinglePosition = styled.p`
+export const SinglePosition = styled.div`
   display: flex;
   justify-content: space-between;
   background-color: white;

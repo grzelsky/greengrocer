@@ -1,23 +1,28 @@
-import React from 'react';
-import { ProductsInCart, ProductsListInCart } from './Cart.css';
-import SingleProductInCart from './SingleProductInCart';
+import React from "react";
+import SingleProductInCart from "./SingleProductInCart";
 import { useSelector } from "react-redux";
+import { ProductsInCart, ProductsListInCart } from "./Cart.css";
 
 const Cart = () => {
-  const productsInCart = useSelector(state => state.productsCategoriesAndProducts.productsInCart);
+  const productsInCart = useSelector(
+    (state) => state.productsInShop.productsInCart
+  );
 
-  const products = productsInCart.map(singleProduct => <SingleProductInCart key={singleProduct.index} productsInCartData={singleProduct} />)
+  const products = productsInCart.map((singleProduct) => (
+    <SingleProductInCart
+      key={singleProduct.index}
+      productsInCartData={singleProduct}
+    />
+  ));
   return (
     <ProductsInCart>
       <ProductsListInCart>
         <ul>
-          <li>
-            {products}
-          </li>
+          <li>{products}</li>
         </ul>
       </ProductsListInCart>
     </ProductsInCart>
   );
-}
+};
 
 export default Cart;

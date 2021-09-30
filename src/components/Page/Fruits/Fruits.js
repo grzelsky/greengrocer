@@ -3,9 +3,7 @@ import Products from "../Products";
 import { useSelector } from "react-redux";
 
 const Fruits = () => {
-  const products = useSelector(
-    (state) => state.productsCategoriesAndProducts.products
-  );
+  const products = useSelector((state) => state.productsInShop.products);
 
   const fruits = products.filter((product) => product.category === "fruit");
 

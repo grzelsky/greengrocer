@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Fragment } from "react";
 import { Banner, Menu, Navigation, CartLink } from "./Header.css";
-import { connect } from "react-redux";
+import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import fruits from "images/jablka.jpg";
 import vegetables from "images/maliny.jpg";
@@ -24,12 +24,14 @@ const navList = [
   },
 ];
 
-const Header = ({ productsInCart }) => {
+const Header = () => {
   const [banerData, setBanerData] = useState({
     banerImage: fruits,
     banerTxt: "Your daily dose of vitamins",
   });
-
+  const productsInCart = useSelector(
+    (state) => state.productsInShop.productsInCart
+  );
   useEffect(() => {
     let active = 0;
     setInterval(() => {
@@ -76,8 +78,4 @@ const Header = ({ productsInCart }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  productsInCart: state.productsCategoriesAndProducts.productsInCart,
-});
-
-export default connect(mapStateToProps)(Header);
+export default Header;

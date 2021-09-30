@@ -1,8 +1,5 @@
 import {
   LOADING_STATES,
-  PRODUCTS_CATEGORIES_GET_REQUEST,
-  PRODUCTS_CATEGORIES_GET_SUCCESS,
-  PRODUCTS_CATEGORIES_GET_FAILURE,
   PRODUCTS_GET_REQUEST,
   PRODUCTS_GET_SUCCESS,
   PRODUCTS_GET_FAILURE,
@@ -14,37 +11,13 @@ import {
 
 const initialState = {
   loadingState: {},
-  productsCategories: [],
   products: [],
   productsInCart: [],
 };
 
-const productsCategoriesAndProducts = (state = initialState, action) => {
+const productsInShop = (state = initialState, action) => {
   const newLoadingState = { ...state.loadingState };
-
   switch (action.type) {
-    case PRODUCTS_CATEGORIES_GET_REQUEST:
-      return {
-        ...state,
-        loadingState: {
-          ...state.loadingState,
-          [action.type]: LOADING_STATES.LOADING,
-        },
-      };
-    case PRODUCTS_CATEGORIES_GET_SUCCESS:
-      delete newLoadingState.PRODUCTS_CATEGORIES_GET_REQUEST;
-      return {
-        ...state,
-        productsCategories: action.payload,
-        loadingState: newLoadingState,
-      };
-    case PRODUCTS_CATEGORIES_GET_FAILURE:
-      delete newLoadingState.PRODUCTS_CATEGORIES_GET_REQUEST;
-      return {
-        ...state,
-        productsCategories: {},
-        loadingState: newLoadingState,
-      };
     case PRODUCTS_GET_REQUEST:
       return {
         ...state,
@@ -122,4 +95,4 @@ const productsCategoriesAndProducts = (state = initialState, action) => {
       return state;
   }
 };
-export default productsCategoriesAndProducts;
+export default productsInShop;

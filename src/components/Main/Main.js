@@ -6,7 +6,7 @@ import { GoToProducts, Modal } from "components";
 
 const Main = () => {
   const productsCategories = useSelector(
-    (state) => state.productsCategoriesAndProducts.productsCategories
+    (state) => state.productsCategoriesInShop.productsCategories
   );
 
   const [isShown, setIsShown] = useState(false);
@@ -16,7 +16,7 @@ const Main = () => {
       setIsShown(true);
     }, 3500);
   }, []);
-
+  // trzeba zrobić cleanup function zeby nie bylo wyciekow pamięci
   const closeModal = (e) => {
     e.stopPropagation();
     setIsShown(false);
