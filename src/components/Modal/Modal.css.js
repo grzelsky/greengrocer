@@ -16,34 +16,38 @@ export const Wrapper = styled.aside`
 `;
 
 export const Content = styled.div`
-background-color: white;
-background-size: cover;
-position: absolute;
-width: 640px;
-height: 427px;
-box-shadow 0 5px 10px 2px darkgray;
-padding: 20px;
-color: lightgray;
-h1{
-  text-transform: uppercase;
+  background-color: white;
+  background-size: cover;
   position: absolute;
-  top:15%;
-}
-p{
-  text-align: left;
-  position: absolute;
-  top:35%;
-  width: 40%;
-  font-size: 20px;
-  line-height: 1.6rem
-}
-@media (max-width: 800px) {
+  width: 640px;
+  height: 427px;
+  // box-shadow 0 5px 10px 2px lightgray;
+  border: 10px solid rgba(245, 78, 42, 0.4);
+  background-clip: padding-box;
+  // border: 10px solid black;
+  // padding: 20px;
+  color: lightgray;
+
+  h1 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 15%;
+  }
+  p {
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    font-size: 20px;
+    line-height: 1.6rem;
+  }
+  @media (max-width: 800px) {
     width: 340px;
     height: 220px;
-    h1{
-     font-size: 18px;
+    h1 {
+      font-size: 18px;
     }
-    p{
+    p {
       font-size: 14px;
     }
   }
@@ -55,4 +59,7 @@ export const CloseIcon = styled.div`
   top: 5px;
   cursor: pointer;
   font-size: 2rem;
+  &:hover {
+    color: #ffd700;
+  }
 `;

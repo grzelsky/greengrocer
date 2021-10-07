@@ -1,10 +1,24 @@
-import styled from "styled-components";
-
+import styled, { keyframes } from "styled-components";
+const fade = keyframes`
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  
+  95% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+`;
 export const Banner = styled.div`
-  background-color: green;
   height: 25vh;
   background-position: 0 50%;
   border: 5px white solid;
+  animation: 5s ${fade} linear infinite;
 
   h1 {
     position: relative;
@@ -46,10 +60,16 @@ export const Navigation = styled.ul`
   justify-content: space-around;
   text-transform: uppercase;
   font-size: 1.3rem;
+
   li {
+    transition: 0.3s;
     a {
       color: white;
       text-decoration: none;
+      transition: 0.5s;
+      &:hover {
+        color: #18ab5d;
+      }
     }
   }
 

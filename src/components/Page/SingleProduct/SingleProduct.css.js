@@ -6,6 +6,7 @@ export const Product = styled.div`
   overflow: hidden;
   color: white;
   margin: 2px 2px;
+  background-color: black;
 
   @media (max-width: 1024px) {
     height: 225px;
@@ -16,8 +17,16 @@ export const Product = styled.div`
 export const Image = styled.div`
   height: 75%;
   overflow: hidden;
+  transition: 0.5s;
+  &:hover {
+    opacity: 0.65;
+  }
   img {
     height: 220px;
+    transition: 0.5s;
+    &:hover {
+      scale: 1.1;
+    }
   }
 `;
 

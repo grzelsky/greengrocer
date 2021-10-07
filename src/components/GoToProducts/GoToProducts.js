@@ -1,14 +1,12 @@
-import React from 'react';
-import { GoToProductFromMain } from './GoToProduct.css';
+import React from "react";
+import { GoToProductFromMain } from "./GoToProduct.css";
 
 const GoToProducts = ({ name, image }) => {
-
   return (
-    <GoToProductFromMain >
+    <GoToProductFromMain style={{ backgroundImage: `url(${image})` }}>
       <p>{name}</p>
-      <img src={image} alt="" />
     </GoToProductFromMain>
   );
-}
+};
 
 export default GoToProducts;
