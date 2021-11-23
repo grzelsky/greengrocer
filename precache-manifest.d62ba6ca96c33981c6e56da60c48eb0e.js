@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56370fff8ced7203882e4781908971bf",
+    "revision": "d8e261fcd602bfc1ab50ac3c9b5bc23b",
     "url": "/greengrocer/index.html"
   },
   {
-    "revision": "d1e37cd9c075a43b7e6c",
+    "revision": "256a43145edf223a4736",
     "url": "/greengrocer/static/css/2.d34346ea.chunk.css"
   },
   {
-    "revision": "47832de0fcf01ed8b851",
+    "revision": "8416cf9441da5296faf2",
     "url": "/greengrocer/static/css/main.33923105.chunk.css"
   },
   {
-    "revision": "d1e37cd9c075a43b7e6c",
-    "url": "/greengrocer/static/js/2.6df4ac68.chunk.js"
+    "revision": "256a43145edf223a4736",
+    "url": "/greengrocer/static/js/2.1c286fb2.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/greengrocer/static/js/2.6df4ac68.chunk.js.LICENSE.txt"
+    "url": "/greengrocer/static/js/2.1c286fb2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "47832de0fcf01ed8b851",
-    "url": "/greengrocer/static/js/main.62360d68.chunk.js"
+    "revision": "8416cf9441da5296faf2",
+    "url": "/greengrocer/static/js/main.ceac45ea.chunk.js"
   },
   {
     "revision": "6099782cc9f0c5201ad5",
